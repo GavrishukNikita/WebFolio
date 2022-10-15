@@ -154,9 +154,9 @@ body{
 }
 
 .information{
-    margin-top: 104px;
+    margin: 104px 0 50px 0;
     position: relative;
-    padding: 0 0 50px 88px;
+    padding: 0 0 0 88px;
 }
 
 .information:before{
@@ -169,7 +169,7 @@ body{
 
     width: 64px;
     height: 64px;
-    background: url("../image/sprites/css_sprites.png") -10px -568px;
+    background: url("../image/sprites/css_sprites.png") -10px -616px;
 }
 
 .information__title{
@@ -187,28 +187,320 @@ body{
     opacity: 0.6;
 }
 
+/*=============About=============*/
 
+.about{
+    margin-top: 100px;
+}
 
+.about__inner{
+    display: flex;
+}
 
+/*Left*/
 
+.about__left{
+    width: 513px;
+}
 
+.white__theme{
+    display: block;
+    text-transform: uppercase;
+    color: #4543E8;
+    font-size: 16px;
+    padding-left: 90px;
+    position: relative;
+}
 
+.white__theme:before{
+    content: "";
+    display: block;
 
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 
+    width: 72px;
+    height: 10px;
+    background: url('../image/sprites/css_sprites.png') -10px -10px;
+}
 
+.about__text{
+    font-size: 19px;
+    line-height: 28px;
+    margin-top: 159px;
+    width: 391px;
+}
 
+.worker{
+    display: flex;
+    margin-top: 27px;
+}
 
+.worker__inner{
+    margin-left: 24px;
+}
 
+.worker__title{
+    line-height: 24.12px;
+    margin-bottom: 7px;
+    padding-top: 4px;
+}
 
+.worker__text{
+    font-size: 15px;
+    line-height: 24.12px;
+}
 
+/*Right*/
 
+.about__right{
+    width: 767px;
+}
 
+.about__title{
+    font-size: 48px;
+}
 
+.statistic{
+    display: flex;
+    margin-top: 74px;
+}
 
+.statistic__inner{
+    margin-right: 64px;
+}
 
+.statistic__inner:last-child{
+    margin-right: 0;
+}
 
+.statistic__title{
+    color: #4543E8;
+    font-size: 60px;
+    line-height: 66px;
+}
 
+.statistic__text{
+    font-size: 22px;
+    line-height: 30.8px;
+}
 
+.companies{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 74px;
+}
 
+/*=============Work=============*/
 
+.work__inner{
+    margin-top: 180px;
+}
 
+.work__title{
+    font-size: 60px;
+    line-height: 66px;
+    margin: 26px 0 78px 0;
+}
+
+/*Cards*/
+
+.works__cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    position: relative;
+}
+
+.card__title{
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-top: 32px;
+    position: relative;
+}
+
+.card__title:before{
+    content: "";
+    display: block;
+    cursor: pointer;
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 28px;
+    height: 28px;
+    background: url(../image/sprites/css_sprites.png) -10px -200px;
+}
+
+.card__text{
+    font-size: 12px;
+    line-height: 27.9px;
+    width: 500px;
+    margin-top: 23px;
+}
+
+.works__cards2{
+    margin: 109px 0 0 390px;
+}
+
+.card3>p{
+    width: 700px;
+}
+
+.card4>p{
+    width: 460px;
+}
+
+.card5>p{
+    width: 500px;
+}
+
+.works__cards3{
+    margin-top: 107px;
+}
+
+.viewAll{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+
+    background: #4543E8;
+    padding: 56px 40px;
+    margin: 84px 0 120px 0;
+}
+
+.viewAll:hover{
+    text-decoration: underline;
+}
+
+/*=============Services=============*/
+
+.services{
+    background: #010032;
+}
+
+.services__inner{
+    display: flex;
+    position: relative;
+}
+
+.services__inner:before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+
+    width: 168px;
+    height: 44px;
+    background: url('../image/sprites/css_sprites.png') -10px -248px;
+}
+
+.dark__theme{
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 90px;
+    position: relative;
+}
+
+.dark__theme:before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 72px;
+    height: 10px;
+    background: url('../image/sprites/css_sprites.png') -10px -40px;
+}
+
+.services__block{
+    margin: 144px 0 194px 0;
+}
+
+.services__item{
+    color: #fff;
+}
+
+.services__title{
+    width: 352px;
+    font-size: 48px;
+    line-height: 53.76px;
+    color: #fff;
+    margin-top: 22px;
+}
+
+.services__logo{
+    width: 56px;
+    height: 56px;
+}
+
+.first__item{
+    margin-left: 143px;
+}
+
+.item__title{
+    display: block;
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-bottom: 23px;
+}
+
+.item__text{
+    display: block;
+    font-size: 18px;
+    line-height: 27.9px;
+    width: 289px;
+}
+
+.first__logo{
+    background: url('../image/sprites/css_sprites.png') -10px -464px;
+    margin: 120px 0 20px 0;
+}
+
+.second__logo{
+    background: url('../image/sprites/css_sprites.png') -10px -312px;
+    margin: 164px 0 20px 0;
+}
+
+.third__logo{
+    background: url('../image/sprites/css_sprites.png') -10px -540px;
+    margin: 58px 0 20px 0;
+}
+
+.fourth__logo{
+    background: url('../image/sprites/css_sprites.png') -10px -388px;
+    margin: 164px 0 20px 0;
+}
+
+.services__block2{
+    margin-left: 119px;
+}
+
+.services__button{
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 21px 86px 22px 42px;
+    text-decoration: none;
+    border-radius: 32px;
+    margin-top: 155px;
+}
+
+.services__button:hover{
+    text-decoration: underline;
+}

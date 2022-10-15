@@ -145,7 +145,7 @@ body{
 
     width: 24px;
     height: 25px;
-    background: url("../image/sprites/css_sprites.png") -10px -155px;
+    background: url("../image/sprites/css_sprites.png") -10px -287px;
 
     position: absolute;
     top: 50%;
@@ -169,7 +169,7 @@ body{
 
     width: 64px;
     height: 64px;
-    background: url("../image/sprites/css_sprites.png") -10px -616px;
+    background: url("../image/sprites/css_sprites.png") -10px -884px;
 }
 
 .information__title{
@@ -335,7 +335,7 @@ body{
 
     width: 28px;
     height: 28px;
-    background: url(../image/sprites/css_sprites.png) -10px -200px;
+    background: url(../image/sprites/css_sprites.png) -10px -332px;
 }
 
 .card__text{
@@ -402,7 +402,7 @@ body{
 
     width: 168px;
     height: 44px;
-    background: url('../image/sprites/css_sprites.png') -10px -248px;
+    background: url('../image/sprites/css_sprites.png') -10px -380px;
 }
 
 .dark__theme{
@@ -468,22 +468,22 @@ body{
 }
 
 .first__logo{
-    background: url('../image/sprites/css_sprites.png') -10px -464px;
+    background: url('../image/sprites/css_sprites.png') -10px -732px;
     margin: 120px 0 20px 0;
 }
 
 .second__logo{
-    background: url('../image/sprites/css_sprites.png') -10px -312px;
+    background: url('../image/sprites/css_sprites.png') -10px -580px;
     margin: 164px 0 20px 0;
 }
 
 .third__logo{
-    background: url('../image/sprites/css_sprites.png') -10px -540px;
+    background: url('../image/sprites/css_sprites.png') -10px -808px;
     margin: 58px 0 20px 0;
 }
 
 .fourth__logo{
-    background: url('../image/sprites/css_sprites.png') -10px -388px;
+    background: url('../image/sprites/css_sprites.png') -10px -656px;
     margin: 164px 0 20px 0;
 }
 
@@ -504,3 +504,255 @@ body{
 .services__button:hover{
     text-decoration: underline;
 }
+
+/*=============Testimonials=============*/
+
+.testimonials{
+    background: #D8D8EB;
+    padding-top: 120px;
+    padding: 120px 0 240px 0;
+}
+
+.testimonials__inner{
+    position: relative;
+}
+
+.white__center__theme{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4543E8;
+    font-size: 16px;
+    position: relative;
+}
+
+.white__center__theme:before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translateY(-50%);
+
+    width: 72px;
+    height: 10px;
+    background: url('../image/sprites/css_sprites.png') -10px -10px;
+}
+
+.white__center__theme:after{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    right: 56%;
+    transform: translateY(-50%);
+
+    width: 72px;
+    height: 10px;
+    background: url('../image/sprites/css_sprites.png') -10px -10px;
+}
+
+.testimonials__title{
+    text-align: center;
+    font-size: 60px;
+    line-height: 66px;
+    margin-top: 26px;
+}
+
+/*Review*/
+
+.testimonials__review{
+    display: flex;
+    justify-content: space-around;
+}
+
+.review__inner{
+    background: #fff;
+    width: 576px;
+    padding: 41px 60px 52px 40px;
+    border-radius: 20px 20px 0px 20px;
+    margin-top: 58px;
+}
+
+.stars{
+    width: 152px;
+    height: 24px;
+    background: url('../image/sprites/css_sprites.png') -10px -155px;
+}
+
+.rewiew__title{
+    display: block;
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-top: 30px;
+}
+
+.rewiew__text{
+    display: block;
+    font-size: 18px;
+    line-height: 27.9px;
+    margin-top: 15px;
+
+}
+
+/*Review=</>*/
+
+.testimonials__arrowLeft{
+    display: block;
+
+    position: absolute;
+    left: 45%;
+    bottom: -25%;
+
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    background: url('../image/sprites/css_sprites.png') -10px -444px;
+}
+
+.testimonials__arrowLeft:hover{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.testimonials__arrowRight{
+    display: block;
+
+    position: absolute;
+    right: 45%;
+    bottom: -25%;
+
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    background: url('../image/sprites/css_sprites.png') -10px -512px;
+}
+
+.testimonials__arrowRight:hover{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+/*=============Process=============*/
+
+.process__inner{
+    padding-top: 144px;
+}
+
+.process__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pTitle__left{
+    display: block;
+    font-size: 60px;
+    line-height: 63.6px;
+    width: 488px;
+    margin-top: 13px;
+}
+
+.pTitle__right{
+    display: block;
+    font-size: 22px;
+    line-height: 34.1px;
+    width: 406px;
+}
+
+.process__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 165px;
+}
+
+.process__item{
+    width: 400px;
+}
+
+.list__number{
+    display: block;
+    color: #4543E8;
+    font-size: 48px;
+    line-height: 53.76px;
+    position: relative;
+}
+
+.list__number:before{
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+
+    width: 64px;
+    height: 24px;
+    background: url('../image/sprites/css_sprites.png') -10px -111px;
+}
+
+.list__number:before::last-child{
+    display: none;
+}
+
+.list__title{
+    display: block;
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-top: 31px;
+}
+
+.list__text{
+    display: block;
+    font-size: 12px;
+    line-height: 27.9px;
+    margin-top: 11px;
+    width: 370px;
+}
+
+/*=============Shop=============*/
+
+.shop__inner{
+    padding-top: 200px;
+}
+
+.shop__title{
+    font-size: 48px;
+    line-height: 52.8px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.products__title{
+    display: block;
+    font-size: 24px;
+    line-height: 29.76px;
+    margin-top: 32px;
+}
+
+.products__text{
+    display: block;
+    font-size: 18px;
+    line-height: 27.9px;
+    margin-top: 6px;
+}
+
+.white__button{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 82px;
+
+}
+
+
+
+
+
+
